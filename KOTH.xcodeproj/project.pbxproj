@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F73040A41BF60E3E00961BD4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73040A31BF60E3E00961BD4 /* SecondViewController.swift */; };
+		F73040E21BF61CB400961BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73040E11BF61CB400961BD4 /* Main.storyboard */; };
 		F7355AE31BF0F214008FE1F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7355AE21BF0F214008FE1F8 /* AppDelegate.swift */; };
 		F7355AE51BF0F214008FE1F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7355AE41BF0F214008FE1F8 /* ViewController.swift */; };
-		F7355AE81BF0F214008FE1F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7355AE61BF0F214008FE1F8 /* Main.storyboard */; };
 		F7355AEA1BF0F214008FE1F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7355AE91BF0F214008FE1F8 /* Assets.xcassets */; };
 		F7355AED1BF0F214008FE1F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7355AEB1BF0F214008FE1F8 /* LaunchScreen.storyboard */; };
 		F7355AF81BF0F214008FE1F8 /* KOTHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7355AF71BF0F214008FE1F8 /* KOTHTests.swift */; };
 		F7355B031BF0F214008FE1F8 /* KOTHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7355B021BF0F214008FE1F8 /* KOTHUITests.swift */; };
+		F7355B121BF0F5A3008FE1F8 /* Bobby.png in Resources */ = {isa = PBXBuildFile; fileRef = F7355B101BF0F5A3008FE1F8 /* Bobby.png */; };
+		F7355B131BF0F5A3008FE1F8 /* Hank.png in Resources */ = {isa = PBXBuildFile; fileRef = F7355B111BF0F5A3008FE1F8 /* Hank.png */; };
+		F7355B171BF0F657008FE1F8 /* Bill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7355B151BF0F657008FE1F8 /* Bill.jpg */; };
+		F7355B181BF0F657008FE1F8 /* Cotton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7355B161BF0F657008FE1F8 /* Cotton.jpg */; };
+		F7BBB43A1BF4EB750080F081 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB4391BF4EB740080F081 /* background.jpg */; };
+		F7BBB43C1BF4EF660080F081 /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB43B1BF4EF660080F081 /* Logo.jpg */; };
+		F7BBB4401BF4F3830080F081 /* King Of The Hill 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB43D1BF4F07A0080F081 /* King Of The Hill 2.ttf */; };
+		F7BBB4411BF4F3850080F081 /* King Of The Hill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB43E1BF4F07A0080F081 /* King Of The Hill.ttf */; };
+		F7BBB4431BF4F5170080F081 /* Peggy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB4421BF4F5170080F081 /* Peggy.jpg */; };
+		F7BBB4461BF4F6050080F081 /* Boomhauer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB4441BF4F6050080F081 /* Boomhauer.jpg */; };
+		F7BBB4471BF4F6050080F081 /* Dale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB4451BF4F6050080F081 /* Dale.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F73040A31BF60E3E00961BD4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F73040E11BF61CB400961BD4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F7355ADF1BF0F214008FE1F8 /* KOTH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOTH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7355AE21BF0F214008FE1F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7355AE41BF0F214008FE1F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7355AE71BF0F214008FE1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7355AE91BF0F214008FE1F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7355AEC1BF0F214008FE1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7355AEE1BF0F214008FE1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		F7355AFE1BF0F214008FE1F8 /* KOTHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOTHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7355B021BF0F214008FE1F8 /* KOTHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOTHUITests.swift; sourceTree = "<group>"; };
 		F7355B041BF0F214008FE1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7355B101BF0F5A3008FE1F8 /* Bobby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bobby.png; sourceTree = "<group>"; };
+		F7355B111BF0F5A3008FE1F8 /* Hank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hank.png; sourceTree = "<group>"; };
+		F7355B151BF0F657008FE1F8 /* Bill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bill.jpg; sourceTree = "<group>"; };
+		F7355B161BF0F657008FE1F8 /* Cotton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cotton.jpg; sourceTree = "<group>"; };
+		F7BBB4391BF4EB740080F081 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		F7BBB43B1BF4EF660080F081 /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
+		F7BBB43D1BF4F07A0080F081 /* King Of The Hill 2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "King Of The Hill 2.ttf"; sourceTree = "<group>"; };
+		F7BBB43E1BF4F07A0080F081 /* King Of The Hill.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "King Of The Hill.ttf"; sourceTree = "<group>"; };
+		F7BBB4421BF4F5170080F081 /* Peggy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Peggy.jpg; sourceTree = "<group>"; };
+		F7BBB4441BF4F6050080F081 /* Boomhauer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boomhauer.jpg; sourceTree = "<group>"; };
+		F7BBB4451BF4F6050080F081 /* Dale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dale.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,8 @@
 				F7355AF61BF0F214008FE1F8 /* KOTHTests */,
 				F7355B011BF0F214008FE1F8 /* KOTHUITests */,
 				F7355AE01BF0F214008FE1F8 /* Products */,
+				F7BBB43F1BF4F0850080F081 /* Fonts */,
+				F7355B141BF0F5AB008FE1F8 /* Images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +125,10 @@
 			children = (
 				F7355AE21BF0F214008FE1F8 /* AppDelegate.swift */,
 				F7355AE41BF0F214008FE1F8 /* ViewController.swift */,
-				F7355AE61BF0F214008FE1F8 /* Main.storyboard */,
+				F73040A31BF60E3E00961BD4 /* SecondViewController.swift */,
 				F7355AE91BF0F214008FE1F8 /* Assets.xcassets */,
 				F7355AEB1BF0F214008FE1F8 /* LaunchScreen.storyboard */,
+				F73040E11BF61CB400961BD4 /* Main.storyboard */,
 				F7355AEE1BF0F214008FE1F8 /* Info.plist */,
 			);
 			path = KOTH;
@@ -123,6 +150,31 @@
 				F7355B041BF0F214008FE1F8 /* Info.plist */,
 			);
 			path = KOTHUITests;
+			sourceTree = "<group>";
+		};
+		F7355B141BF0F5AB008FE1F8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F7355B101BF0F5A3008FE1F8 /* Bobby.png */,
+				F7355B111BF0F5A3008FE1F8 /* Hank.png */,
+				F7355B151BF0F657008FE1F8 /* Bill.jpg */,
+				F7BBB4441BF4F6050080F081 /* Boomhauer.jpg */,
+				F7BBB4451BF4F6050080F081 /* Dale.jpg */,
+				F7355B161BF0F657008FE1F8 /* Cotton.jpg */,
+				F7BBB4421BF4F5170080F081 /* Peggy.jpg */,
+				F7BBB4391BF4EB740080F081 /* background.jpg */,
+				F7BBB43B1BF4EF660080F081 /* Logo.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F7BBB43F1BF4F0850080F081 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F7BBB43D1BF4F07A0080F081 /* King Of The Hill 2.ttf */,
+				F7BBB43E1BF4F07A0080F081 /* King Of The Hill.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +284,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7BBB4431BF4F5170080F081 /* Peggy.jpg in Resources */,
+				F7BBB4411BF4F3850080F081 /* King Of The Hill.ttf in Resources */,
+				F7BBB4401BF4F3830080F081 /* King Of The Hill 2.ttf in Resources */,
 				F7355AED1BF0F214008FE1F8 /* LaunchScreen.storyboard in Resources */,
 				F7355AEA1BF0F214008FE1F8 /* Assets.xcassets in Resources */,
-				F7355AE81BF0F214008FE1F8 /* Main.storyboard in Resources */,
+				F7BBB43C1BF4EF660080F081 /* Logo.jpg in Resources */,
+				F7355B171BF0F657008FE1F8 /* Bill.jpg in Resources */,
+				F73040E21BF61CB400961BD4 /* Main.storyboard in Resources */,
+				F7355B131BF0F5A3008FE1F8 /* Hank.png in Resources */,
+				F7BBB4461BF4F6050080F081 /* Boomhauer.jpg in Resources */,
+				F7BBB4471BF4F6050080F081 /* Dale.jpg in Resources */,
+				F7355B121BF0F5A3008FE1F8 /* Bobby.png in Resources */,
+				F7BBB43A1BF4EB750080F081 /* background.jpg in Resources */,
+				F7355B181BF0F657008FE1F8 /* Cotton.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73040A41BF60E3E00961BD4 /* SecondViewController.swift in Sources */,
 				F7355AE51BF0F214008FE1F8 /* ViewController.swift in Sources */,
 				F7355AE31BF0F214008FE1F8 /* AppDelegate.swift in Sources */,
 			);
@@ -296,14 +360,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F7355AE61BF0F214008FE1F8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7355AE71BF0F214008FE1F8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7355AEB1BF0F214008FE1F8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -487,6 +543,7 @@
 				F7355B091BF0F214008FE1F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7355B0A1BF0F214008FE1F8 /* Build configuration list for PBXNativeTarget "KOTHTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +552,7 @@
 				F7355B0C1BF0F214008FE1F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7355B0D1BF0F214008FE1F8 /* Build configuration list for PBXNativeTarget "KOTHUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +561,7 @@
 				F7355B0F1BF0F214008FE1F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

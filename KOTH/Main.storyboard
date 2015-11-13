@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="King Of The Hill 2.ttf">
+            <string>KingOfTheHill2</string>
+            <string>KingOfTheHill2</string>
+            <string>KingOfTheHill2</string>
+            <string>KingOfTheHill2</string>
+            <string>KingOfTheHill2</string>
+            <string>KingOfTheHill2</string>
+            <string>KingOfTheHill2</string>
+            <string>KingOfTheHill2</string>
+            <string>KingOfTheHill2</string>
+            <string>KingOfTheHill2</string>
+            <string>KingOfTheHill2</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KOTH" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gCy-SC-kmV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="King of the Hill Wiki" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mbh-Tc-LxL">
+                                <rect key="frame" x="30" y="30" width="540" height="37"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="fec-Df-lFF">
+                                <rect key="frame" x="165" y="58" width="270" height="484"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="R3E-lz-Sjt">
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="128"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fd6-PX-LR7">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="128"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5m8-Da-DHy">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                                        <animations/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="110" id="Cpg-nk-bD0"/>
+                                                            <constraint firstAttribute="width" constant="110" id="Ocn-6O-1B7"/>
+                                                        </constraints>
+                                                        <state key="normal" image="Hank.png"/>
+                                                        <connections>
+                                                            <action selector="charButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UXD-rK-yd6"/>
+                                                            <segue destination="clX-XL-m3z" kind="show" identifier="charInfo" id="2xP-9J-uPk"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hank Hill" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2l-ai-WWZ">
+                                                        <rect key="frame" x="0.0" y="110" width="110" height="18"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nS1-cd-NBh">
+                                                <rect key="frame" x="160" y="0.0" width="110" height="128"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lL0-BL-U0P">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                                        <animations/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="110" id="Jk5-Pl-VFF"/>
+                                                            <constraint firstAttribute="height" constant="110" id="cLo-oG-MNy"/>
+                                                        </constraints>
+                                                        <state key="normal" image="Peggy.jpg"/>
+                                                        <connections>
+                                                            <action selector="charButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R4i-MM-uLb"/>
+                                                            <segue destination="clX-XL-m3z" kind="show" identifier="charInfo" id="NTA-q2-idW"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peggy Hill" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNy-XM-jNP">
+                                                        <rect key="frame" x="0.0" y="110" width="110" height="18"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                        </subviews>
+                                        <animations/>
+                                        <variation key="heightClass=compact" axis="vertical"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="DoI-fd-gZe">
+                                        <rect key="frame" x="0.0" y="178" width="270" height="128"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PaC-Vy-0lA">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="128"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EtF-yR-3VG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                                        <animations/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="110" id="GXa-40-JcP"/>
+                                                            <constraint firstAttribute="height" constant="110" id="xTD-pe-nNR"/>
+                                                        </constraints>
+                                                        <state key="normal" image="Bobby.png"/>
+                                                        <connections>
+                                                            <action selector="charButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ev-xI-hqC"/>
+                                                            <segue destination="clX-XL-m3z" kind="show" identifier="charInfo" id="dTG-QU-jd3"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bobby Hill" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Olt-xk-rvY">
+                                                        <rect key="frame" x="0.0" y="110" width="110" height="18"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Wru-tY-x3h">
+                                                <rect key="frame" x="160" y="0.0" width="110" height="128"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LN0-tS-zDG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                                        <animations/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="110" id="4pS-rc-fnL"/>
+                                                            <constraint firstAttribute="width" constant="110" id="cvC-gv-BUT"/>
+                                                        </constraints>
+                                                        <state key="normal" image="Bill.jpg"/>
+                                                        <connections>
+                                                            <action selector="charButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cso-g9-2fJ"/>
+                                                            <segue destination="clX-XL-m3z" kind="show" identifier="charInfo" id="Lpm-pK-TkI"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill Dauterive" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmp-I4-nK7">
+                                                        <rect key="frame" x="0.0" y="110" width="110" height="18"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                        </subviews>
+                                        <animations/>
+                                        <variation key="heightClass=compact" axis="vertical"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="CvA-iB-F9r">
+                                        <rect key="frame" x="0.0" y="356" width="270" height="128"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PVn-dp-DrV">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="128"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zoq-l2-Wuz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                                        <animations/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="110" id="CLa-2L-4lL"/>
+                                                            <constraint firstAttribute="height" constant="110" id="m7l-Gg-ydf"/>
+                                                        </constraints>
+                                                        <state key="normal" image="Dale.jpg"/>
+                                                        <connections>
+                                                            <action selector="charButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RFf-Hl-qIb"/>
+                                                            <segue destination="clX-XL-m3z" kind="show" identifier="charInfo" id="fLY-tj-Aut"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dale Gribble" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6Y-rt-KY3">
+                                                        <rect key="frame" x="0.0" y="110" width="110" height="18"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nPA-aR-JdF">
+                                                <rect key="frame" x="160" y="0.0" width="110" height="128"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJh-id-MUA">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                                        <animations/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="110" id="NuK-U5-MWZ"/>
+                                                            <constraint firstAttribute="width" constant="110" id="XMH-K9-rML"/>
+                                                        </constraints>
+                                                        <state key="normal" image="Boomhauer.jpg"/>
+                                                        <connections>
+                                                            <action selector="charButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kso-6M-uN7"/>
+                                                            <segue destination="clX-XL-m3z" kind="show" identifier="charInfo" id="K2c-ti-dZQ"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boomhauer" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXW-jf-daL">
+                                                        <rect key="frame" x="0.0" y="110" width="110" height="18"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                        </subviews>
+                                        <animations/>
+                                        <variation key="heightClass=compact" axis="vertical"/>
+                                    </stackView>
+                                </subviews>
+                                <animations/>
+                                <variation key="heightClass=compact" axis="horizontal" spacing="100"/>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Click on any portrait to learn more about this character and hear some of his/her famous quotes. Give out stars to rate!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPI-zG-Ye6">
+                                <rect key="frame" x="30" y="552" width="540" height="60"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Yyu-4l-zWg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EPI-zG-Ye6" firstAttribute="top" secondItem="fec-Df-lFF" secondAttribute="bottom" constant="10" id="3Ih-S9-3De"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mbh-Tc-LxL" secondAttribute="trailing" constant="10" id="6eo-UK-dlH"/>
+                            <constraint firstItem="gCy-SC-kmV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Czx-lf-pkI"/>
+                            <constraint firstItem="Mbh-Tc-LxL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="HFB-FU-6kA"/>
+                            <constraint firstItem="fec-Df-lFF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JGz-IM-eVy"/>
+                            <constraint firstItem="fec-Df-lFF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mme-En-VLx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EPI-zG-Ye6" secondAttribute="trailing" constant="10" id="PfR-hE-4gd"/>
+                            <constraint firstItem="gCy-SC-kmV" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="U5G-Oq-hFm"/>
+                            <constraint firstItem="EPI-zG-Ye6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="fOX-bb-VAg"/>
+                            <constraint firstItem="gCy-SC-kmV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hET-Jo-VQr"/>
+                            <constraint firstItem="gCy-SC-kmV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kpt-ST-fOz"/>
+                            <constraint firstItem="Mbh-Tc-LxL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="p5b-jB-z1k"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="221" y="408"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="gTF-h2-Bxw">
+            <objects>
+                <viewController id="clX-XL-m3z" customClass="SecondViewController" customModule="KOTH" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wwi-LY-tlI"/>
+                        <viewControllerLayoutGuide type="bottom" id="kTJ-hh-G89"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vvY-Ec-SFl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.15000000596046448" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Bju-WT-H7s">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="pi2-3q-lBM">
+                                <rect key="frame" x="188" y="32" width="225" height="537"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="cp2-qx-2XI">
+                                        <rect key="frame" x="53" y="0.0" width="119" height="86"/>
+                                        <subviews>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NWN-U3-4CX">
+                                                <rect key="frame" x="0.0" y="0.0" width="119" height="29"/>
+                                                <animations/>
+                                                <segments>
+                                                    <segment title="1"/>
+                                                    <segment title="2"/>
+                                                    <segment title="3"/>
+                                                    <segment title="4"/>
+                                                    <segment title="5"/>
+                                                </segments>
+                                                <color key="tintColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </segmentedControl>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UzX-Mf-cAP">
+                                                <rect key="frame" x="0.0" y="53" width="119" height="33"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="20"/>
+                                                <state key="normal" title="Vote!">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tKP-pM-epf">
+                                        <rect key="frame" x="0.0" y="111" width="225" height="373"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hank.png" translatesAutoresizingMaskIntoConstraints="NO" id="iG4-7l-kYJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="225" height="225"/>
+                                                <animations/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rBC-e6-yY7">
+                                                <rect key="frame" x="0.0" y="225" width="225" height="120"/>
+                                                <animations/>
+                                                <string key="text">Name: 
+Age:
+Occupation:
+
+
+</string>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="oX2-Xm-FKP">
+                                                <rect key="frame" x="0.0" y="345" width="225" height="28"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDB-R7-1Qw">
+                                                        <rect key="frame" x="0.0" y="0.0" width="113" height="28"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="15"/>
+                                                        <state key="normal" title="Quote">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUA-t4-RKG">
+                                                        <rect key="frame" x="113" y="0.0" width="112" height="28"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="15"/>
+                                                        <state key="normal" title="Quote">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="WkE-33-yTm">
+                                        <rect key="frame" x="29" y="509" width="167" height="28"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="15"/>
+                                        <state key="normal" title="Back to all characters">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" id="nsa-SF-Qd4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <variation key="heightClass=compact" axis="horizontal" spacing="50"/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pi2-3q-lBM" firstAttribute="centerY" secondItem="Bju-WT-H7s" secondAttribute="centerY" id="1KM-aI-0e8"/>
+                            <constraint firstItem="Bju-WT-H7s" firstAttribute="centerY" secondItem="vvY-Ec-SFl" secondAttribute="centerY" id="2HR-p1-1Zx"/>
+                            <constraint firstItem="Bju-WT-H7s" firstAttribute="width" secondItem="vvY-Ec-SFl" secondAttribute="width" id="Ahc-uX-hJT"/>
+                            <constraint firstItem="pi2-3q-lBM" firstAttribute="centerX" secondItem="Bju-WT-H7s" secondAttribute="centerX" id="HJG-05-Bcu"/>
+                            <constraint firstItem="Bju-WT-H7s" firstAttribute="centerX" secondItem="vvY-Ec-SFl" secondAttribute="centerX" id="SRG-E4-NRc"/>
+                            <constraint firstItem="Bju-WT-H7s" firstAttribute="height" secondItem="vvY-Ec-SFl" secondAttribute="height" id="j32-dI-oqu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="charImage" destination="iG4-7l-kYJ" id="jhT-uT-7r7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="16v-fy-Z9Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1158" y="408"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bill.jpg" width="200" height="203"/>
+        <image name="Bobby.png" width="219" height="230"/>
+        <image name="Boomhauer.jpg" width="210" height="240"/>
+        <image name="Dale.jpg" width="250" height="345"/>
+        <image name="Hank.png" width="225" height="225"/>
+        <image name="Peggy.jpg" width="211" height="239"/>
+        <image name="background.jpg" width="1920" height="1080"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="fLY-tj-Aut"/>
+    </inferredMetricsTieBreakers>
+</document>
