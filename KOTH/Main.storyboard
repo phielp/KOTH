@@ -234,7 +234,7 @@
                                 <animations/>
                                 <variation key="heightClass=compact" axis="horizontal" spacing="100"/>
                             </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Click on any portrait to learn more about this character and hear some of his/her famous quotes. Give out stars to rate!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPI-zG-Ye6">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Click on a portrait to learn more about this character and hear some of his/her famous quotes. Give out stars to rate!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPI-zG-Ye6">
                                 <rect key="frame" x="30" y="552" width="540" height="60"/>
                                 <animations/>
                                 <constraints>
@@ -283,10 +283,10 @@
                                 <animations/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="pi2-3q-lBM">
-                                <rect key="frame" x="188" y="32" width="225" height="537"/>
+                                <rect key="frame" x="175" y="19" width="250" height="562"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="cp2-qx-2XI">
-                                        <rect key="frame" x="53" y="0.0" width="119" height="86"/>
+                                        <rect key="frame" x="66" y="0.0" width="119" height="86"/>
                                         <subviews>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NWN-U3-4CX">
                                                 <rect key="frame" x="0.0" y="0.0" width="119" height="29"/>
@@ -299,6 +299,9 @@
                                                     <segment title="5"/>
                                                 </segments>
                                                 <color key="tintColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="indexChanged:" destination="clX-XL-m3z" eventType="valueChanged" id="Cc6-11-lZI"/>
+                                                </connections>
                                             </segmentedControl>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UzX-Mf-cAP">
                                                 <rect key="frame" x="0.0" y="53" width="119" height="33"/>
@@ -308,20 +311,30 @@
                                                 <state key="normal" title="Vote!">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="voteButton:" destination="clX-XL-m3z" eventType="touchUpInside" id="Vep-5c-o3C"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tKP-pM-epf">
-                                        <rect key="frame" x="0.0" y="111" width="225" height="373"/>
+                                        <rect key="frame" x="0.0" y="111" width="250" height="398"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hank.png" translatesAutoresizingMaskIntoConstraints="NO" id="iG4-7l-kYJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="225" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
                                                 <animations/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="250" id="PeC-3T-qp2"/>
+                                                    <constraint firstAttribute="width" constant="250" id="vAX-4g-wT9"/>
+                                                </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rBC-e6-yY7">
-                                                <rect key="frame" x="0.0" y="225" width="225" height="120"/>
+                                                <rect key="frame" x="0.0" y="250" width="250" height="120"/>
                                                 <animations/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                </accessibility>
                                                 <string key="text">Name: 
 Age:
 Occupation:
@@ -332,25 +345,37 @@ Occupation:
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="oX2-Xm-FKP">
-                                                <rect key="frame" x="0.0" y="345" width="225" height="28"/>
+                                                <rect key="frame" x="0.0" y="370" width="250" height="28"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDB-R7-1Qw">
-                                                        <rect key="frame" x="0.0" y="0.0" width="113" height="28"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="125" height="28"/>
                                                         <animations/>
                                                         <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <accessibility key="accessibilityConfiguration">
+                                                            <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                                        </accessibility>
                                                         <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="15"/>
-                                                        <state key="normal" title="Quote">
+                                                        <state key="normal" title="Quote 1">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="quoteButton1:" destination="clX-XL-m3z" eventType="touchUpInside" id="tUI-6Q-lpS"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUA-t4-RKG">
-                                                        <rect key="frame" x="113" y="0.0" width="112" height="28"/>
+                                                        <rect key="frame" x="125" y="0.0" width="125" height="28"/>
                                                         <animations/>
                                                         <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <accessibility key="accessibilityConfiguration">
+                                                            <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                                        </accessibility>
                                                         <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="15"/>
-                                                        <state key="normal" title="Quote">
+                                                        <state key="normal" title="Quote 2">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="quoteButton2:" destination="clX-XL-m3z" eventType="touchUpInside" id="hb5-p9-ea5"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <animations/>
@@ -359,7 +384,7 @@ Occupation:
                                         <animations/>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="WkE-33-yTm">
-                                        <rect key="frame" x="29" y="509" width="167" height="28"/>
+                                        <rect key="frame" x="42" y="534" width="167" height="28"/>
                                         <animations/>
                                         <color key="backgroundColor" red="0.1759984362" green="0.61382211539999998" blue="0.24979213450000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KingOfTheHill2" family="King Of The Hill 2" pointSize="15"/>
@@ -388,6 +413,8 @@ Occupation:
                     </view>
                     <connections>
                         <outlet property="charImage" destination="iG4-7l-kYJ" id="jhT-uT-7r7"/>
+                        <outlet property="charText" destination="rBC-e6-yY7" id="D5g-FG-8ed"/>
+                        <outlet property="segmentedControl" destination="NWN-U3-4CX" id="5qj-v3-fCq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="16v-fy-Z9Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -399,7 +426,7 @@ Occupation:
         <image name="Bill.jpg" width="200" height="203"/>
         <image name="Bobby.png" width="219" height="230"/>
         <image name="Boomhauer.jpg" width="210" height="240"/>
-        <image name="Dale.jpg" width="250" height="345"/>
+        <image name="Dale.jpg" width="245" height="251"/>
         <image name="Hank.png" width="225" height="225"/>
         <image name="Peggy.jpg" width="211" height="239"/>
         <image name="background.jpg" width="1920" height="1080"/>

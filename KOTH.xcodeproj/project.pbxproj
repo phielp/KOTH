@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F72409E11BF6C17000C09AAA /* Bill1.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409D41BF6B63B00C09AAA /* Bill1.aif */; };
+		F72409E21BF6C17000C09AAA /* Bill2.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409D51BF6B63B00C09AAA /* Bill2.aif */; };
+		F72409E31BF6C17000C09AAA /* Bobby1.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409D61BF6B63B00C09AAA /* Bobby1.aif */; };
+		F72409E41BF6C17000C09AAA /* Bobby2.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409D71BF6B63B00C09AAA /* Bobby2.aif */; };
+		F72409E51BF6C17000C09AAA /* Boomhauer1.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409D81BF6B63B00C09AAA /* Boomhauer1.aif */; };
+		F72409E61BF6C17000C09AAA /* Boomhauer2.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409D91BF6B63B00C09AAA /* Boomhauer2.aif */; };
+		F72409E71BF6C17000C09AAA /* Dale1.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409DA1BF6B63B00C09AAA /* Dale1.aif */; };
+		F72409E81BF6C17000C09AAA /* Dale2.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409DB1BF6B63B00C09AAA /* Dale2.aif */; };
+		F72409E91BF6C17000C09AAA /* Hank1.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409DC1BF6B63B00C09AAA /* Hank1.aif */; };
+		F72409EA1BF6C17000C09AAA /* Hank2.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409DD1BF6B63B00C09AAA /* Hank2.aif */; };
+		F72409EB1BF6C17000C09AAA /* Peggy1.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409DE1BF6B63B00C09AAA /* Peggy1.aif */; };
+		F72409EC1BF6C17000C09AAA /* Peggy2.aif in Resources */ = {isa = PBXBuildFile; fileRef = F72409DF1BF6B63B00C09AAA /* Peggy2.aif */; };
 		F73040A41BF60E3E00961BD4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73040A31BF60E3E00961BD4 /* SecondViewController.swift */; };
 		F73040E21BF61CB400961BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73040E11BF61CB400961BD4 /* Main.storyboard */; };
 		F7355AE31BF0F214008FE1F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7355AE21BF0F214008FE1F8 /* AppDelegate.swift */; };
@@ -19,13 +31,13 @@
 		F7355B131BF0F5A3008FE1F8 /* Hank.png in Resources */ = {isa = PBXBuildFile; fileRef = F7355B111BF0F5A3008FE1F8 /* Hank.png */; };
 		F7355B171BF0F657008FE1F8 /* Bill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7355B151BF0F657008FE1F8 /* Bill.jpg */; };
 		F7355B181BF0F657008FE1F8 /* Cotton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7355B161BF0F657008FE1F8 /* Cotton.jpg */; };
+		F74476811BF6A83B00CA86DF /* Dale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F74476801BF6A83B00CA86DF /* Dale.jpg */; };
 		F7BBB43A1BF4EB750080F081 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB4391BF4EB740080F081 /* background.jpg */; };
 		F7BBB43C1BF4EF660080F081 /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB43B1BF4EF660080F081 /* Logo.jpg */; };
 		F7BBB4401BF4F3830080F081 /* King Of The Hill 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB43D1BF4F07A0080F081 /* King Of The Hill 2.ttf */; };
 		F7BBB4411BF4F3850080F081 /* King Of The Hill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB43E1BF4F07A0080F081 /* King Of The Hill.ttf */; };
 		F7BBB4431BF4F5170080F081 /* Peggy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB4421BF4F5170080F081 /* Peggy.jpg */; };
 		F7BBB4461BF4F6050080F081 /* Boomhauer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB4441BF4F6050080F081 /* Boomhauer.jpg */; };
-		F7BBB4471BF4F6050080F081 /* Dale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB4451BF4F6050080F081 /* Dale.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +58,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F72409D41BF6B63B00C09AAA /* Bill1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bill1.aif; sourceTree = "<group>"; };
+		F72409D51BF6B63B00C09AAA /* Bill2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bill2.aif; sourceTree = "<group>"; };
+		F72409D61BF6B63B00C09AAA /* Bobby1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bobby1.aif; sourceTree = "<group>"; };
+		F72409D71BF6B63B00C09AAA /* Bobby2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bobby2.aif; sourceTree = "<group>"; };
+		F72409D81BF6B63B00C09AAA /* Boomhauer1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boomhauer1.aif; sourceTree = "<group>"; };
+		F72409D91BF6B63B00C09AAA /* Boomhauer2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boomhauer2.aif; sourceTree = "<group>"; };
+		F72409DA1BF6B63B00C09AAA /* Dale1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dale1.aif; sourceTree = "<group>"; };
+		F72409DB1BF6B63B00C09AAA /* Dale2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dale2.aif; sourceTree = "<group>"; };
+		F72409DC1BF6B63B00C09AAA /* Hank1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hank1.aif; sourceTree = "<group>"; };
+		F72409DD1BF6B63B00C09AAA /* Hank2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hank2.aif; sourceTree = "<group>"; };
+		F72409DE1BF6B63B00C09AAA /* Peggy1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Peggy1.aif; sourceTree = "<group>"; };
+		F72409DF1BF6B63B00C09AAA /* Peggy2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Peggy2.aif; sourceTree = "<group>"; };
 		F73040A31BF60E3E00961BD4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F73040E11BF61CB400961BD4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F7355ADF1BF0F214008FE1F8 /* KOTH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOTH.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,13 +88,13 @@
 		F7355B111BF0F5A3008FE1F8 /* Hank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hank.png; sourceTree = "<group>"; };
 		F7355B151BF0F657008FE1F8 /* Bill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bill.jpg; sourceTree = "<group>"; };
 		F7355B161BF0F657008FE1F8 /* Cotton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cotton.jpg; sourceTree = "<group>"; };
+		F74476801BF6A83B00CA86DF /* Dale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dale.jpg; sourceTree = "<group>"; };
 		F7BBB4391BF4EB740080F081 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		F7BBB43B1BF4EF660080F081 /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
 		F7BBB43D1BF4F07A0080F081 /* King Of The Hill 2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "King Of The Hill 2.ttf"; sourceTree = "<group>"; };
 		F7BBB43E1BF4F07A0080F081 /* King Of The Hill.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "King Of The Hill.ttf"; sourceTree = "<group>"; };
 		F7BBB4421BF4F5170080F081 /* Peggy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Peggy.jpg; sourceTree = "<group>"; };
 		F7BBB4441BF4F6050080F081 /* Boomhauer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boomhauer.jpg; sourceTree = "<group>"; };
-		F7BBB4451BF4F6050080F081 /* Dale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dale.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +122,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F72409E01BF6B64C00C09AAA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F72409D41BF6B63B00C09AAA /* Bill1.aif */,
+				F72409D51BF6B63B00C09AAA /* Bill2.aif */,
+				F72409D61BF6B63B00C09AAA /* Bobby1.aif */,
+				F72409D71BF6B63B00C09AAA /* Bobby2.aif */,
+				F72409D81BF6B63B00C09AAA /* Boomhauer1.aif */,
+				F72409D91BF6B63B00C09AAA /* Boomhauer2.aif */,
+				F72409DA1BF6B63B00C09AAA /* Dale1.aif */,
+				F72409DB1BF6B63B00C09AAA /* Dale2.aif */,
+				F72409DC1BF6B63B00C09AAA /* Hank1.aif */,
+				F72409DD1BF6B63B00C09AAA /* Hank2.aif */,
+				F72409DE1BF6B63B00C09AAA /* Peggy1.aif */,
+				F72409DF1BF6B63B00C09AAA /* Peggy2.aif */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		F7355AD61BF0F213008FE1F8 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +149,7 @@
 				F7355B011BF0F214008FE1F8 /* KOTHUITests */,
 				F7355AE01BF0F214008FE1F8 /* Products */,
 				F7BBB43F1BF4F0850080F081 /* Fonts */,
+				F72409E01BF6B64C00C09AAA /* Sounds */,
 				F7355B141BF0F5AB008FE1F8 /* Images */,
 			);
 			sourceTree = "<group>";
@@ -159,11 +203,11 @@
 				F7355B111BF0F5A3008FE1F8 /* Hank.png */,
 				F7355B151BF0F657008FE1F8 /* Bill.jpg */,
 				F7BBB4441BF4F6050080F081 /* Boomhauer.jpg */,
-				F7BBB4451BF4F6050080F081 /* Dale.jpg */,
 				F7355B161BF0F657008FE1F8 /* Cotton.jpg */,
 				F7BBB4421BF4F5170080F081 /* Peggy.jpg */,
 				F7BBB4391BF4EB740080F081 /* background.jpg */,
 				F7BBB43B1BF4EF660080F081 /* Logo.jpg */,
+				F74476801BF6A83B00CA86DF /* Dale.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -284,20 +328,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F72409EC1BF6C17000C09AAA /* Peggy2.aif in Resources */,
+				F72409E61BF6C17000C09AAA /* Boomhauer2.aif in Resources */,
 				F7BBB4431BF4F5170080F081 /* Peggy.jpg in Resources */,
 				F7BBB4411BF4F3850080F081 /* King Of The Hill.ttf in Resources */,
+				F72409EA1BF6C17000C09AAA /* Hank2.aif in Resources */,
+				F72409E31BF6C17000C09AAA /* Bobby1.aif in Resources */,
+				F72409E91BF6C17000C09AAA /* Hank1.aif in Resources */,
 				F7BBB4401BF4F3830080F081 /* King Of The Hill 2.ttf in Resources */,
 				F7355AED1BF0F214008FE1F8 /* LaunchScreen.storyboard in Resources */,
 				F7355AEA1BF0F214008FE1F8 /* Assets.xcassets in Resources */,
 				F7BBB43C1BF4EF660080F081 /* Logo.jpg in Resources */,
 				F7355B171BF0F657008FE1F8 /* Bill.jpg in Resources */,
+				F72409E81BF6C17000C09AAA /* Dale2.aif in Resources */,
 				F73040E21BF61CB400961BD4 /* Main.storyboard in Resources */,
 				F7355B131BF0F5A3008FE1F8 /* Hank.png in Resources */,
+				F74476811BF6A83B00CA86DF /* Dale.jpg in Resources */,
+				F72409E11BF6C17000C09AAA /* Bill1.aif in Resources */,
+				F72409E51BF6C17000C09AAA /* Boomhauer1.aif in Resources */,
 				F7BBB4461BF4F6050080F081 /* Boomhauer.jpg in Resources */,
-				F7BBB4471BF4F6050080F081 /* Dale.jpg in Resources */,
+				F72409E21BF6C17000C09AAA /* Bill2.aif in Resources */,
+				F72409E41BF6C17000C09AAA /* Bobby2.aif in Resources */,
 				F7355B121BF0F5A3008FE1F8 /* Bobby.png in Resources */,
 				F7BBB43A1BF4EB750080F081 /* background.jpg in Resources */,
 				F7355B181BF0F657008FE1F8 /* Cotton.jpg in Resources */,
+				F72409E71BF6C17000C09AAA /* Dale1.aif in Resources */,
+				F72409EB1BF6C17000C09AAA /* Peggy1.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
