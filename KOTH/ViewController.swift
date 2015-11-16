@@ -13,28 +13,27 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-    // character buttons
+    // character buttons for segue?
     @IBAction func charButtons(sender: AnyObject) {
 
     }
     
+    // load view
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
     // send tag value to secondviewcontroller (svc)
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         if (segue.identifier == "charInfo") {
             let svc = segue.destinationViewController as! SecondViewController;
-            
             svc.toPass = sender.tag
         }
     }
 
+    // memory warning
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }
 

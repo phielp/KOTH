@@ -13,6 +13,10 @@ import AVFoundation
 
 class SecondViewController: UIViewController {
     
+    /**************************
+             VARIABLES
+    **************************/
+    
     // Character data, stored as:
     //      image, soundbite1, soundbite2, name, age, job
     var hank : [AnyObject] = ["hank.png", "Hank1", "Hank2", "Henry \"Hank\" Rutherford Hill", "43", "Assisted manager of Strickland Propane"]
@@ -26,19 +30,29 @@ class SecondViewController: UIViewController {
     // ID of button clicked from ViewController (profiles screen)
     var toPass:Int!
     
+    // soundboard quotes
     var quote1 : AVAudioPlayer?
     var quote2 : AVAudioPlayer?
     
     // vote value
     var rating : Int = 1
 
+    /**************************
+               OUTLETS
+    **************************/
+    
     @IBOutlet weak var charImage: UIImageView!
     @IBOutlet weak var charText: UITextView!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     
+    /**************************
+               ACTIONS
+    **************************/
+    
     // confirm vote
     @IBAction func voteButton(sender: AnyObject) {
         print("\(rating)")
+        saveVote()
     }
 
     // set vote value
@@ -69,10 +83,15 @@ class SecondViewController: UIViewController {
         quote2?.play()
     }
     
+    /**************************
+             FUNCTIONS
+    **************************/
+    
     // load view
     override func viewDidLoad() {
         super.viewDidLoad()
         getCharData(toPass)
+        displayVote()
         displayProfile()
     }
     
@@ -122,6 +141,24 @@ class SecondViewController: UIViewController {
         charText.text = "NAME: \(currentChar[3])\u{0085}AGE:    \(currentChar[4])\u{0085}JOB:    \(currentChar[5])"
     }
     
+    // save vote in NSUserDefaults
+    func saveVote() {
+        let defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        defaults.setObject(rating, forKey: "vote \(toPass)")
+        defaults.synchronize()
+    }
+    
+    // load vote from NSUserDefault
+    func displayVote() {
+        
+        let defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        let vote = defaults.valueForKey("vote \(toPass)") as? Int
+        
+        if vote != nil {
+            segmentedControl.selectedSegmentIndex = vote! - 1
+        }
+    }
+    
     // Setup audioplayer and load files
     func setupAudioPlayerWithFile(file:String, type:String) -> AVAudioPlayer?  {
         // setup path
@@ -140,5 +177,4 @@ class SecondViewController: UIViewController {
         audioPlayer?.prepareToPlay()
         return audioPlayer
     }
-
 }
